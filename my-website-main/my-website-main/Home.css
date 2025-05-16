@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('vid/wallpaper\ 3.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  .navbar {
+    position: sticky !important; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333; 
+}
+
+
+nav a {
+    margin: 0 15px;
+}
+
+.hero {
+
+    color: rgb(255, 255, 255);
+    padding: 100px 20px;
+}
+
+section .quick-links{
+ color: rgb(255, 255, 255);
+}
+
+.hero h1 {
+    font-size: 70px;
+}
+ h2, p{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+ }
+
+.about, .quick-links {
+    padding: 20px;
+    margin: 20px;
+}
+.vid-container{
+    position: relative;
+    width: 70%;
+    padding-bottom: 4rem;
+}
+.hov :hover{
+    background: #ccbfbf;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+    overflow-x: hidden; 
+}
+@media (max-width: 500px) {
+    .box {
+      flex-direction: column; 
+      align-items: center;
+      gap: 10px; 
+    }
+
+}
+
+.box a {
+    background-color: #999292;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.box a:hover{
+    background-color: #5d5a5a;
+    color: black;
+}
+.logo{
+    height: 50px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+footer h3{
+    padding-top: 1rem;
+}
+.icon img{
+    width: 25px;
+    height: auto;
+    margin: 0.1rem;
+    cursor: pointer;
+}
+.slideshow-container {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

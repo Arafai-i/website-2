@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('vid/wallpaper\ 3.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+    zoom: 100% !important;
+    transform: scale(1); 
+    transform-origin: 0 0; 
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .navbar {
+    position: sticky !important; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333; 
+}
+
+
+nav a {
+    margin: 0 15px;
+}
+.logo{
+    height: 50px;
+
+}
+  .job-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .job-card {
+    background: rgba(109, 105, 109, 0.437);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .job-card h4 {
+    margin-bottom: 0.5rem;
+  }
+  h4, p{
+    color: white;
+  }
+  
+  .job-location {
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .job-card a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #999292;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .job-card a:hover {
+    background-color: #5d5a5a;
+    color: black;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+footer h3{
+    padding-top: 1rem;
+}
+.icon img{
+    width: 25px;
+    height: auto;
+    margin: 0.1rem;
+    cursor: pointer;
+} 

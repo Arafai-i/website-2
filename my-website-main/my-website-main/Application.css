@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('vid/wallpaper\ 3.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black ;
+    }
+html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow-x: hidden;
+      }
+nav {
+    background: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.logo{
+    height: 50px;
+    margin-right: 85rem;
+}
+#phone{
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+}
+label{
+    color: white;
+}
+
+form {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.Radius{
+        border-radius: 8px;
+}
+textarea{
+    height: 20rem;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button {
+    background: #333;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    margin: 20px;
+}
+button:hover{
+    background-color: #5d5a5a;
+    color: black;
+}
+button a:hover{
+    background-color: #5d5a5a;
+    color: black;
+}
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #28a745;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

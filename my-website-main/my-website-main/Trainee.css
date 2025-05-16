@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('vid/wallpaper\ 3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    position: sticky !important; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333; 
+}
+
+nav a {
+    margin: 0 15px;
+}
+.logo{
+    height: 50px;
+}
+
+.img-1, .img-2, .img-3, .img-4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.trainee p{
+    font-size: 12px; 
+    max-height: 150px; 
+    color: white;
+    max-width: 500px;
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+footer h3{
+    padding-top: 1rem;
+}
+.icon img{
+    width: 25px;
+    height: auto;
+    margin: 0.1rem;
+    cursor: pointer;
+}

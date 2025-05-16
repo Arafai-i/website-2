@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Application.css" />
+    <link
+      rel="icon"
+      href="vid/WhatsApp_Image_2025-03-16_at_7.23.21_PM-removebg-preview.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Tech Jobs</title>
+  </head>
+  <body>
+    <br />
+    <br />
+    <h2>Job Application Form</h2>
+    <form id="JobForm">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required class="Radius" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required class="Radius" />
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required class="Radius" />
+
+      <label for="cv">Upload Your CV Or Cover Letter (PDF or DOCX):</label>
+      <input
+        type="file"
+        id="cv"
+        name="cv"
+        accept=".pdf,.doc,.docx"
+        style="color: white"
+        required
+      />
+
+      <label for="message">Why do you want to join?</label>
+      <textarea id="message" name="message" required class="Radius"></textarea>
+      <br />
+
+      <button type="button"><a href="listing.html">Back</a></button>
+      <button type="submit">Submit</button>
+    </form>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document
+        .getElementById("JobForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent form from reloading page
+
+          let name = document.getElementById("name").value;
+          localStorage.setItem("applicantName", name); // Store name in local storage
+
+          window.location.href = "Confirmation.html"; // Redirect to confirmation page
+        });
+      console.log(name);
+    </script>
+    <script>
+      document.getElementById("phone").addEventListener("input", function () {
+        this.value = this.value.replace(/[^0-9]/g, "");
+      });
+    </script>
+  </body>
+</html>

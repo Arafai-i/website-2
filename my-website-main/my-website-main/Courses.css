@@ -1,0 +1,97 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('vid/wallpaper\ 3.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  
+  html, body {
+    height: 100%;
+    overflow-x: hidden;    
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    position: sticky !important; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333; 
+}
+
+.navbar a {
+    margin: 0 15px;
+
+
+}
+  .logo {
+    height: 50px;
+  }
+  
+  .sec-2, .sec-3, .sec-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  
+  .img-4, .img-5, .img-6,
+  .img-7, .img-8, .img-9 {
+    flex: 1 1 250px;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(109, 105, 109, 0.437);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+  }
+  
+  .img-4 img, .img-5 img, .img-6 img,
+  .img-7 img, .img-8 img, .img-9 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .img-4 a, .img-5 a, .img-6 a,
+  .img-7 a, .img-8 a, .img-9 a {
+    background-color: #999292;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .sec-2 a:hover, .sec-3 a:hover, .sec-4 a:hover {
+    background-color: #5d5a5a;
+    color: black;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  footer h3 {
+    padding-top: 1rem;
+  }
+  
+  .icon img {
+    width: 25px;
+    height: auto;
+    margin: 0.1rem;
+    cursor: pointer;
+  }
+
+  
